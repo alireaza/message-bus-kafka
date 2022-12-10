@@ -1,0 +1,38 @@
+{
+  "name": "alireaza/message-bus-kafka",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "description": "This is Message Bus for Kafka package.",
+  "keywords": [
+    "alireaza",
+    "Message-Bus",
+    "Message",
+    "Bus",
+    "Kafka"
+  ],
+  "homepage": "https://gitlab.com/alireaza/message-bus-kafka",
+  "authors": [
+    {
+      "name": "Mohammad Ali Ghorbani Delijani",
+      "homepage": "https://www.alireaza.com",
+      "email": "alireazamagh@gmail.com"
+    }
+  ],
+  "funding": [
+    {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alireaza"
+    }
+  ],
+  "require": {
+    "php": "^8.0.0",
+    "alireaza/message-bus": "1.0.0",
+    "ext-rdkafka": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliReaza\\MessageBus\\Kafka\\": "src/"
+    }
+  }
+}
